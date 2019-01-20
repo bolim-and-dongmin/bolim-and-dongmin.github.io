@@ -1,0 +1,95 @@
+@font-face { font-family: 'UhBeemysen'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+    line-height: 1.5
+}
+
+ul {
+    list-style: disc inside;
+}
+
+h1 {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9091c1;
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+    background-image : url('../images/main.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.story-container {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.story-image {
+    width: 100vw;
+    height: 75vw;
+    background-size: cover;
+    background-position: center center;
+}
+
+.story-message {
+    font-size: 8.5vw;
+    font-family: 'UhBeemysen', serif;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 1.0em;
+    margin-right: 0.5em;
+    margin-bottom: 1.0em;
+}
+
+#info {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7ebdd;
+}
+
+#info-image {
+    width: 100%;
+    height: 100%;
+    background-image : url('../images/info.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+#location {
+    width: 92vw;
+    max-width: 600px !important;
+    margin: 2em auto;
+}
+
+#location * {
+    font-family: 'S-CoreDream-3Light'
+}
+
+#location ul {
+    margin-left: 16px;
+}
+
+#location li span {
+    position: relative;
+    left: -0.5em;
+}
+
+#map {
+    width: 100%;
+}
